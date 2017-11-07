@@ -2,6 +2,5 @@ FROM python:alpine
 
 LABEL maintainer="dev@lioman.de"
 
-RUN pip install safety
+RUN pip install safety flake8
 
-CMD ["safety"]
